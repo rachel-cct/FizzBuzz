@@ -43,7 +43,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [X] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -151,7 +151,7 @@ This is not the case in Java. You must define a method called `main` in a class
 and tell Java to run the file containing that class.
 
 ```java
-public static void main(String[] args)
+public static void main(String[] args);
 ```
 
 This is the main method, the entry point of your program. You have installed Java,
