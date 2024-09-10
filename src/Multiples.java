@@ -1,19 +1,15 @@
-class Multiples {
+public class Multiples {
+    public static void main(String[] args) {
 
-    public static void multiples() {
         int count = 0;
-        for (int y = 1; y < 1000; y++); {
-            count = getCount(count);
+        for (int i = 1; i < 1000; i++) {
+            boolean div3 = i % 3 == 0;
+            boolean div5 = i % 5 == 0;
+            if (div3 || div5) {
+                count++;
+            }
         }
         System.out.println(count);
     }
-
-    private static int getCount(int count) {
-        boolean div3 = y % 3 == 0;
-        boolean div5 = y % 5 == 0;
-        if (div3 || div5) {
-            count++;
-        }
-        return count;
-    }
 }
+
