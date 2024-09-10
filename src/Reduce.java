@@ -1,4 +1,4 @@
-public class REDUCEE {
+public class Reduce {
     public static void main(int n) {
         int steps = 0;
         while (n > 0) {
